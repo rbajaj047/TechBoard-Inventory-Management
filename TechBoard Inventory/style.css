@@ -1,0 +1,112 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #272526;
+}
+
+.logo{
+    height: 70px;
+    position: absolute;
+    display: flex;
+    right: 3%;
+    top: 5%;
+
+}
+
+div.header {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("/images/SeptBlog_InventoryManagement_3715_SJ-1\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+div.wlcm {
+    position: absolute;
+    /* width: 100%; */
+    height: 81px;
+    left: 7%;
+    top: 35%;
+    font-family: 'Kefa';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+span {
+    color: #272526;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    font-size: 50px;
+    display: inline;
+}
+
+.choose {
+    display: inline;
+    font-family: 'Kefa';
+    font-style: italic;
+    color: #FFFFFF;
+    font-size: 40px;
+    position: relative;
+    top: 4%;
+    left: 5%;
+    color: #FFFFFF;
+}
+
+div.clubs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 35px;
+    margin: 50px auto;
+    max-width: 1400px;
+    padding-bottom: 30px;
+}
+
+.club {
+    border-radius: 45px;
+    padding: 10px;
+    background-color: rgb(66, 53, 53);
+    box-shadow: 5px 5px 5px rgba(98, 113, 113, 0.2);
+}
+
+.club:hover {
+    position: relative;
+    top: 1px;
+    box-shadow: none;
+}
+
+.clubname {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Kefa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    top: 30%;
+    left: 10%;
+}
+
+img.rounded {
+    border-radius: 50%;
+    border: 5px solid #555;
+    height: 60px;
+    width: 60px;
+    margin-left: 2%;
+    float: left;
+}
+
+.footer{
+    display: inline;
+}
