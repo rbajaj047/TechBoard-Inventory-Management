@@ -5,6 +5,14 @@ body {
     background: #272526;
 }
 
+a
+{
+    text-decoration: none;
+    color:white;
+}
+
+
+
 .logo{
     height: 70px;
     position: absolute;
