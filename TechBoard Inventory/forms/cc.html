@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,59 +8,60 @@
     <title>Coding Club Order Addition</title>
     <link rel="stylesheet" href="cc.css">
 </head>
-<body style="background-color: rgb(230, 230, 230);">
+
+<body style="background-color: rgb(232, 254, 254);">
     <style>
-        .btn
-{
-    text-align: center;
-    text-decoration: solid;
-    padding: 8%;
-    
-}
+        .btn {
+            text-align: center;
+            text-decoration: solid;
+            padding: 8%;
+
+        }
     </style>
     <p>
-        <h3>Please fill the below form to add the details of your order:</h3>
+    <h3>Please fill the below form to add the details of your order:</h3>
     </p>
     <div class="frm">
-    <form action="" id="inventoryForm">
-        <div class="desc">
-            Description: <input type="text" id="a">
-        </div>
-        <br>
-        <div class="quantity">
-            Quantity: <input type="number" id="b">
-        </div>
-        <br>
-        <div class="ppitem">
-            Price per Item: <input type="text" id="c">
-        </div>
-        <br>
-        <div class="gstin">
-            GSTIN/Invoice No.: <input type="text" id="d">
-        </div>
-        <br>
-        <div class="supplier">
-            Address of Supplier: <textarea name="Address" cols="50" rows="10" id="e"></textarea>
-        </div>
-        <br>
-        <div class="dateorder">
-            Date of order: <input type="date" id="f">
-        </div>
-        <br>
-        <div class="daterec">
-            Items received on: <input type="date" id="g">
-        </div>
-        <br> 
-        <div class="phno">
-            Contact Number: <input type="tel" id="h">
-        </div>
-        <br>
-        
-        <input type="submit" value="Submit">
+        <form action="" id="inventoryForm">
+            <div class="desc">
+                Description: <input type="text" id="a">
+            </div>
+            <br>
+            <div class="quantity">
+                Quantity: <input type="number" id="b">
+            </div>
+            <br>
+            <div class="ppitem">
+                Price per Item: <input type="text" id="c">
+            </div>
+            <br>
+            <div class="gstin">
+                GSTIN/Invoice No.: <input type="text" id="d">
+            </div>
+            <br>
+            <div class="supplier">
+                Address of Supplier: <textarea name="Address" cols="50" rows="10" id="e"></textarea>
+            </div>
+            <br>
+            <div class="dateorder">
+                Date of order: <input type="date" id="f">
+            </div>
+            <br>
+            <div class="daterec">
+                Items received on: <input type="date" id="g">
+            </div>
+            <br>
+            <div class="phno">
+                Contact Number: <input type="tel" id="h">
+            </div>
+            <br>
 
-    </form>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-<script src="./mail.js"></script>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
 </body>
+
 </html>

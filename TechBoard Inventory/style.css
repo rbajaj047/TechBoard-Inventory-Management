@@ -5,15 +5,7 @@ body {
     background: #272526;
 }
 
-a
-{
-    text-decoration: none;
-    color:white;
-}
-
-
-
-.logo{
+.logo {
     height: 70px;
     position: absolute;
     display: flex;
@@ -115,6 +107,11 @@ img.rounded {
     float: left;
 }
 
-.footer{
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
     display: inline;
 }
